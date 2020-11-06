@@ -1,0 +1,29 @@
+@import "./nav";
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	border-bottom: 1px solid #ffffff;
+	&__container {
+		@include flexbox(space-between);
+		padding: 33px 0;
+		max-width: 1560px;
+		margin: 0 auto;
+	}
+	&__btns {
+		display: flex;
+	}
+	&__search {
+		margin-right: 70px;
+	}
+	&__language {
+		display: flex;
+		align-items: center;
+		color: #fff;
+		svg {
+			margin-right: 10px;
+		}
+	}
+}

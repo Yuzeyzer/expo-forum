@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Circe", sans-serif;
+}
+li {
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+span {
+	display: inline-block;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-6 {
+	width: 50%;
+}

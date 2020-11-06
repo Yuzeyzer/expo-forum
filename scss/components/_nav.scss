@@ -1,0 +1,18 @@
+.nav {
+	&__menu {
+		display: flex;
+	}
+	&__item {
+		margin-right: 47px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+	&__link {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 135%;
+		color: #ffffff;
+	}
+}
